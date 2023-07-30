@@ -148,8 +148,7 @@ public class RedisLayer {
 	public Mono<PostFetchQuery> fetchFreshPosts(String accountname) {
 
 		return getListSize(accountname).flatMap((size) -> {
-
-			final PostFetchQuery posts = new PostFetchQuery();
+			PostFetchQuery posts = new PostFetchQuery();
 			posts.setPostlist(new ArrayList<Integer>());
 			posts.setMaxIndex(size - 1);
 			posts.setMinIndex((size - 35) > 0 ? (size - 35) : 0);

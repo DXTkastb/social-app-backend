@@ -20,6 +20,7 @@
 /home/kaustubh/eclipso/reactive.chat.app/src/main/java/com/configs/RsocketConfig.java
 /home/kaustubh/eclipso/reactive.chat.app/src/main/java/com/services/TokenService.java
 /home/kaustubh/eclipso/reactive.chat.app/src/main/java/com/data/FetchLikeCommentQuery.java
+/home/kaustubh/eclipso/reactive.chat.app/src/main/java/com/data/PostDeleteQuery.java
 /home/kaustubh/eclipso/reactive.chat.app/src/main/java/com/configs/RabbitConfig.java
 /home/kaustubh/eclipso/reactive.chat.app/src/main/java/com/data/UiNotificationMessages.java
 /home/kaustubh/eclipso/reactive.chat.app/src/main/java/com/controllers/ResourceController.java
